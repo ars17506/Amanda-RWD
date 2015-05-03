@@ -1,0 +1,452 @@
+html, body, nav, section, div, img, ul {
+	margin: auto 0;
+	padding: 0;
+	font-family: "Ariel", sans-serif;
+}
+
+/*.content {
+	width: 100%;
+	margin: 0 auto;
+}*/
+
+/* NAVIGATION */
+
+.menu-icon {
+	padding-top: 0em;
+	margin-left: 0em;
+	cursor: pointer;
+	position: relative;
+	display: block;
+	border: none;
+	text-align: center;
+}
+
+.nav-list {
+	float: left;
+	margin-top: 0;
+}
+
+.nav-list li {
+	display: block;
+	float: none;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+/*img {
+	max-width: 100%;
+}*/
+
+
+/* Main Image */
+
+.main-header {
+	padding-top: 0.5em;
+	text-align: center;
+	background-image: url(../imgs/city_skyline.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 20em;
+	margin-bottom: -3.5em;
+/*	background-position: -1000px -1300px;*/
+}
+
+#my-name {
+	text-align: center;
+	color: white;
+	font-size: 40;
+}
+
+#description {
+	text-align: center;
+	color: white;
+	font-size: 30;
+}
+
+/* Section 1 */
+
+#about-me {
+	background-color: #BADA55;
+	text-align: center;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	font-weight: 300;
+}
+
+#about-me-pic {
+	float: left;
+	padding-left: 10%;
+	padding-right: 2.5%;
+	list-style-type: none;
+}
+
+#mepic {
+	max-width: 100%;
+}
+
+#about-me-info {
+	list-style-type: none;
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+/*.image-grid {
+	width: 100%;
+	list-style-type: none;
+	padding-top: 2em;
+	padding-left: 2em;
+}
+
+#thumb-image1 {
+	background-image: url(../imgs/Me.png);
+	width: 12em;
+	height: 12em;
+	background-position: 2em 0em;
+	background-repeat: no-repeat;
+	margin-bottom: 2em;
+	padding-left: 2em;
+	padding-top: 2em;
+}*/
+
+#title-one {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 35;
+	font-weight: 300;
+}
+
+#caption-1 {
+	font-family: "Ariel", sans-serif;
+	font-size: 14; 
+	font-weight: 300;
+	list-style-type: none;
+	max-width: 100%;
+
+}
+
+/*#caption {
+	font-size: 14;
+	list-style-type: none;
+	max-width: 100%;
+}*/
+
+/* Section 2 */
+
+/*#portfolio {
+	height: 10em;
+	text-align: center;
+*/
+
+#portfolio-info {
+	background-color: white;
+	text-align: center;
+}
+
+#newspic {
+	max-width: 100%;
+	height: 10em;
+	width: 13em;
+}
+
+#writingspic {
+	max-width: 100%;
+	height: 10em;
+	width: 13em;
+}
+
+#designpic {
+	max-width: 100%;
+	height: 10em;
+	width: 13em;
+}
+
+#center-text {
+	list-style-type: none;
+	font-size: 35;
+	max-width: 100%;
+	padding-top: 1em;
+	text-align: center;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+}
+
+#portfolio-info {
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+	margin-top: 5%;
+	position: relative;
+	max-width: 100%;
+	font-weight: 300;
+	display: inline-flex;
+	margin-bottom: 15%;
+}
+
+.image-grid {
+	padding-right: 2%;
+	list-style-type: none;
+	padding-top: 0em;
+	width: 15em;
+	height: 18em;
+	text-align: center;
+}
+
+/*
+#center-text-big {
+	font-family: "Ariel", sans-serif;
+	font-size: 35;
+	padding-bottom: 2em;
+	list-style-type: none;
+	text-align: center;
+}
+
+.image-grid {
+	float: left;
+	width: 100%;
+	padding-right: 5em;
+	list-style-type: none;
+	padding-top: 1.5em;
+	width: 12em;
+}
+
+#thumb-image2 {
+	background-image: url("../imgs/news.png");
+	width: 10em;
+	height: 10em;
+	background-position: -2em -2em;
+	background-repeat: no-repeat;
+	margin-bottom: 0.5em;
+	max-width: 100%;
+	padding-left: 2em;
+}
+
+#thumb-image3 {
+	background-image: url("../imgs/writings.png");
+	width: 10em;
+	height: 10em;
+	background-position: -2em 0em;
+	background-repeat: no-repeat;
+	margin-bottom: 0.5em;
+	max-width: 100%;
+	padding-left: 2em;
+}
+
+#thumb-image4 {
+	background-image: url("../imgs/design.png");
+	width: 10em;
+	height: 10em;
+	background-position: -5em -6em;
+	background-repeat: no-repeat;
+	margin-bottom: 0.5em;
+	max-width: 100%;
+	padding-left: 2em;
+}
+
+#caption>p{
+	font-family: "Ariel", sans-serif;
+	font-size: 14; 
+	list-style-type: none;
+	max-width: 100%;
+}
+*/
+/* Section 3 */
+
+#number-three {
+	background-color: gray;
+}
+
+#blog {
+	text-align: center;
+	font-family: "Ariel", sans-serif;
+	font-size: 35;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+	color: black;
+	font-weight: 300;
+}
+
+/* Section 4 */
+
+#number-four {
+	background-color: white;
+	max-width: 100%;
+}
+
+.contact> {
+	padding-top: 20px;
+	list-style-type: none;
+	text-align: center;
+}
+
+#main-question {
+	font-family: "Ariel", sans-serif;
+	font-weight: 400;
+	font-size: 36;
+	text-align: center;
+	padding-top: 0em;
+}
+
+.container {
+	list-style-type: none;
+	display: block;
+	text-align: center;
+}
+
+#contact-text {
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	font-size: 18;
+	text-align: center;
+}
+
+input[type=button] {
+	font-family: "Ariel", sans-serif;
+	width: 6em;
+	height: 3em;
+	background-color: #BADA55;
+	border: none;
+	font-size: 16;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 10%;
+	margin-left: 10%;
+	font-weight: 300;
+}
+
+.contact-two {
+	text-align: center;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+}
+
+/* #more-contact-info {
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+/*
+
+/* FOOTER */
+
+.footer {
+	width: 100%;
+}
+
+#copyright {
+	text-align: center;
+	list-style-type: none;
+	font-size: 14;
+	font-weight: 550;
+	padding-top: 2em;
+}
+
+#name {
+	text-align: center;
+	list-style-type: none;
+	font-size: 14;
+	font-weight: 300;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/* CLEARFIX */
+.clearfix {
+	overflow: auto;
+}
+
+/* ABOUT ME */
+
+#title-about-me {
+	list-style-type: none;
+	font-size: 35;
+	max-width: 100%;
+	padding-top: 1em;
+	text-align: center;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+}
+
+#info-about-me {
+	background: #BADA55;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	font-family: "Ariel", sans-serif;
+	font-size: 18;
+	font-weight: 300;
+}
+
+/* NEWS */
+
+#news {
+	list-style-type: none;
+	font-size: 35;
+	max-width: 100%;
+	padding-top: 1em;
+	text-align: center;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+}
+
+#news-articles {
+	background: #BADA55;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	font-family: "Ariel", sans-serif;
+	font-size: 18;
+	font-weight: 300;
+}
+
+/* WRITING */
+
+#writings-title {
+	list-style-type: none;
+	font-size: 35;
+	max-width: 100%;
+	padding-top: 1em;
+	text-align: center;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+}
+
+#writings {
+	background: #BADA55;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	font-family: "Ariel", sans-serif;
+	font-size: 18;
+	font-weight: 300;
+}
+
+/* GRAPHIC DESIGN */
+
+#graphic-designs {
+	list-style-type: none;
+	font-size: 35;
+	max-width: 100%;
+	padding-top: 1em;
+	text-align: center;
+	font-family: "Ariel", sans-serif;
+	font-weight: 300;
+}
+
+
+#graphics {
+	background: #BADA55;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	font-family: "Ariel", sans-serif;
+	font-size: 18;
+	font-weight: 300;
+}

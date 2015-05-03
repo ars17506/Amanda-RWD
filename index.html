@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<title>Amanda's Personal Brand</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<nav>
+			<div>
+				<img class="menu-icon" src="imgs/hamburger.png"></img>
+				<ul class="nav-list">
+					<li><a class="About-Me" href="#about-me">about me.</a></li>
+					<li><a class="Portfolio" href="#portfolio-info">portfolio.</a></li>
+					<li><a class="Blog" href="#number-three">blog.</a></li>
+					<li><a class="Contact" href="#number-four">contact.</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="main-header">
+			<p id="my-name">amanda simanek.</p>
+			<p id="description">writer//designer//creator</p>
+		</div>
+
+		<section id="about-me">
+			<ul id="about-me-pic">
+				<li><img id="mepic" src="imgs/Me.png"></li>
+			</ul>
+			<ul id="about-me-info">
+				<li id="title-one">about me.</li>
+				<li id="caption-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum....<a href="subpage-one.html">Learn more</a></li>
+			</ul>
+		</section>
+
+		<section id="portfolio">
+			<p id="center-text">portfolio.</p>
+			<!-- <ul id="center-text">
+				<li id="center-text-big">portfolio.</li>
+			</ul> -->
+		</section>
+
+		<section id="portfolio-info">
+			<ul class="image-grid">
+				<li><img id="newspic" src="imgs/news.png"></li>
+				<li id="caption-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...<a href="subpage-two.html">Learn more</a></li>
+			</ul>
+
+			<ul class="image-grid">
+				<li><img id="writingspic" src="imgs/writings.png"></li>
+				<li id="caption-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...<a href="subpage-three.html">Learn more</a></li>
+			</ul>
+
+			<ul class="image-grid">
+				<li><img id="designpic" src="imgs/design.png"></li>
+				<li id="caption-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...<a href="subpage-four.html">Learn more</a></li>
+			</ul>
+		</section>
+
+			<section id="number-three">
+				<div class="blog content">
+					<p id="blog">
+					<a href="https://ars17506.wordpress.com">blog.</a></p>
+			</section>
+
+			<section id="number-four">
+				<div class="contact content">
+					<p id="main-question">Questions?</p>
+					<p id="contact-text">Contact me via email, phone, or my various social media accounts.</p>
+						<div class="container">
+						<form>
+   	 						<input TYPE="button" VALUE="Facebook" onclick="window.location.href='https://www.facebook.com/amanda.simanek.7'"> 
+						</form>
+
+						<form>	
+							<input TYPE="button" VALUE="Twitter" onclick="window.location.href='https://twitter.com/asimanek'"> 
+						</form>
+						
+						<form>
+	    					<input TYPE="button" VALUE="Instagram" onclick="window.location.href='https://instagram.com/a_simanek/'"> 
+						</form>
+							
+						<form>
+	    					<input TYPE="button" VALUE="LinkedIn" onclick="window.location.href='https://www.linkedin.com/pub/amanda-simanek/b2/752/500'"> 
+						</form>
+						</div>
+					</div>
+					
+					<div class="contact-two">
+						<p id="more-contact-info">For further information, please feel free to <a href="mailto:arsimanek@gmail.com">email</a> me or call me at 402.650.0723.</p>
+					</div>
+			</section>
+
+
+			<footer id="footer">
+				<div class="footer content">
+					<ul id="copyright">
+						<li>Title Copyright 2015</li>
+					</ul>
+					<ul id="name">
+						<li>Amanda Simanek, Web Design, Personal Brand</li>
+					</ul>
+				</div>
+			</footer>
+
+			<!-- H-Menu -->
+			<script type="text/javascript">
+				$(function() {
+					$nav = $('.nav-list');
+
+				$('.menu-icon').click(function(){
+					$nav.slideToggle();
+				});
+				});
+			</script>
+	</body>
+</html>
