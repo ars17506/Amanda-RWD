@@ -182,7 +182,6 @@ html, body, nav, section, div, img, ul {
 	position: relative;
 	max-width: 100%;
 	font-weight: 300;
-	display: inline-flex;
 	margin-bottom: 15%;
 }
 
